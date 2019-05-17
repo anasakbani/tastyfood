@@ -1,0 +1,298 @@
+/* Header and Navbar */
+header{
+    background-image: url("../Images/banner.jpg");
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+header .navbar-overlay{
+    background: -webkit-linear-gradient(#000000,transparent);
+    border: none;
+    
+}
+header .navbar-default{
+   background: transparent;
+   border: none;
+ 
+   
+  
+}
+header .navbar-collapse{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+header .navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    transition: 1s;
+    background:#fdd909;
+    
+}
+
+/* Header and Navbar End */
+
+/*Banner-section */
+
+.banner-text{
+    margin-top: 100px;
+
+  
+  
+}
+.banner-text h1{
+   font-family: Yeseva;
+   color: white;
+   font-size: 80px;
+  animation-duration: 2s;
+  
+ 
+  
+}
+.banner-text h2{
+    font-family: Yeseva;
+   color: white;
+  font-size: 70px;
+  animation-duration: 2s;
+}
+.btn-t-black{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));;
+    color: white;
+    animation-duration: 2s;
+}
+.btn-t-white{
+    background:linear-gradient(rgba(255, 255, 255, 0.5));
+    color: white;
+    animation-duration: 2s;
+    animation-delay: 2s
+}
+.banner-buttons{
+margin-left: 400px;
+padding-left: 20px
+}
+/* button Hover Effects */
+.btn-t-black:hover{
+    background: #ffffff;
+    color: #000000;
+   
+}
+.btn-t-white:hover{
+    background: #000000;
+    color: white;
+};
+/* Button Hover End */
+
+
+
+/* Banner Section End */
+
+/* About Section */
+.food-about-section{
+    background:url(../Images/about-background.jpg);
+    background-repeat: no-repeat;
+    height:650px;
+    font-size: 30px !important;
+    color: #cc9900;
+    font-weight: 400;
+    padding-top: 45px;
+    font-family: 'Yeseva One', cursive;
+    visibility: visible;
+
+
+}
+.about-leftgrid{
+    animation-duration: 1s;
+    animation-delay: 2s;
+    visibility: visible;
+}
+.food-about-section p {
+    font-size: 15px;
+    color: #6f6f6f;
+}
+.cook-img{
+    margin-top: 50px;
+   
+}
+.cook-dish{
+    animation-delay: 2s;
+    animation-duration: 1s;
+   
+    
+}
+/* About section end */
+
+/* ingredients Section */
+.ingredients{
+    background-image: url(../Images/ingredent.jpg);
+    height: 700px;
+    background-size: cover;
+   background-repeat: no-repeat;
+   visibility: visible;
+}
+.ingredients-box{
+    width: 50%;
+    height: 550px;
+   padding-top: 50px;
+   margin-top: 100px;
+    color: #ffffff;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));;
+   
+}
+.ingredients-box .sm-ingredent-img{
+    margin-left: 50px;
+   
+
+}
+.ingredients-images-group{
+    margin-left:5%;
+    margin-top: 20%;
+}
+/* Ingredients end */
+
+
+
+/* Menu Section */
+.menu{
+    background: url(../Images/about-background.jpg);
+}
+.menu-grids h3{
+    font-size: 3em;
+    color: #cc9900;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-family: 'Yeseva One', cursive;
+}
+.tzatsikis{
+   border-bottom:1px solid rgba(204, 153, 0, 0.33);
+}
+.tzatsiki{
+    float: left;
+}
+.dollar{
+    float: right;
+    
+}
+.tzatsiki h4 {
+    font-size: 1.7em;
+    color: #c89f2d;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: 'Yeseva One', cursive;
+}
+.dollar h4 {
+    font-size: 1.7em;
+    color: #c89f2d;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Yeseva One', cursive;
+}
+.menu-grids1 h3{
+    font-size: 3em;
+    color: #cc9900;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    font-family: 'Yeseva One', cursive;
+}
+/* Menu Section End */
+
+/* Reviews Section */
+.reviews-section{
+   background: url(../Images/reviews-banner.jpg);
+   background-size: cover;
+   min-height: 645px;
+}
+
+.review-box{
+    width: 50%;
+    height: 450px;
+   padding-top: 50px;
+    color: #ffffff;
+  margin-top: 60px;
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.9));;
+   
+}
+.review-box p{
+    padding-top: 20px;
+}
+/* Review section end */
+
+
+/* Booking section */
+.booking-section{
+    background-image: url(../Images/about-background.jpg);
+    min-height:700px;
+}
+.booktable-images img{
+    width: 40%;
+    margin-top: 13%;
+    margin-left: 3%;
+    float: left;
+}
+.right-grid h4{
+    font-size: 3em;
+    color: #cc9900;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-family: 'Yeseva One', cursive
+}
+.right-grid{
+    margin-top: 4%;
+    
+}
+.contact-text {
+    float: left;
+    width: 34%;
+    padding-bottom: 4%;
+    margin-left: 5%;
+    color:#cc9900;
+    
+    
+}
+.contact-text h5{
+    font-weight: bold;
+}
+.contact-form{
+    padding-top:3.2em;
+   margin-left: 10%;
+  
+}
+::placeholder{
+    font-style: italic;
+}
+.btn-1c{
+  width: 40%;
+  background: #cc9900;
+  color: #ffffff;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+/* Booking Section End */
+
+/* Footer */
+
+footer{
+    background: #191919;
+    color: #ffffff;
+}
+footer h4{
+    font-size: 20px;
+    padding: 0 0 20px 0;
+}
+footer p{
+    font-size: 1.2em;
+    color: #ffffff;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    padding: 0.3em 0;
+}
